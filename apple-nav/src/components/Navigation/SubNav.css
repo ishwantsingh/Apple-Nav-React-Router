@@ -1,0 +1,15 @@
+.sub-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 65px;
+  margin-bottom: 40px;
+  background: rgb(246, 246, 246);
+}
+.sub-link {
+  font-size: 14px;
+  background: rgb(246, 246, 246);
+  color: black;
+  padding: 0em 1em;
+}

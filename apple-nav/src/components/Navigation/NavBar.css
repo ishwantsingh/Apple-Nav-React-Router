@@ -1,0 +1,20 @@
+.main-nav {
+  width: 98.95%;
+  background: rgb(49, 49, 49);
+  padding: 10px;
+  margin: 0 auto;
+}
+.nav-link {
+  font-size: 14px;
+  border: 2px solid rgb(49, 49, 49);
+  border-radius: 3px;
+  background: rgb(49, 49, 49);
+  color: #fff;
+  height: 44px;
+  margin: 20px;
+  padding: 0.25em 1em;
+}
+.logo {
+  height: 20px;
+  width: 15px;
+}
