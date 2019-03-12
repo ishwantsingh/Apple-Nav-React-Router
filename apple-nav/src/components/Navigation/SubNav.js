@@ -7,15 +7,8 @@ class SubNav extends Component {
       <div>
         {console.log(`${this.props.page.name}1`)}
         <nav>
-          <Link to={`${this.props.page.name}1`} replace>
-            1
-          </Link>
-          <Link to={`${this.props.page.name}2`} replace>
-            2
-          </Link>
-          <Link to={`${this.props.page.name}3`} replace>
-            3
-          </Link>
+          <Link to={`${this.props.page.name}1`}>1</Link>
+          <Link to={`${this.props.page.name}2`}>2</Link>
         </nav>
       </div>
     );

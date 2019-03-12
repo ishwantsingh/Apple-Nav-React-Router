@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-class Mac1 extends Component {
+class Watch2 extends Component {
   render() {
     return (
       <div>
-        <h1>APPLE MACBOOK 1</h1>
+        <h1>APPLE WATCH 2</h1>
       </div>
     );
   }
 }
-export default Mac1;
+export default Watch2;
