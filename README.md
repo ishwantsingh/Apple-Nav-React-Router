@@ -1,24 +1,29 @@
-# React Router Apple Nav - Stretch Assignment
+# React Router Apple Nav
 
-* Lets build out an navigation app that mimics `Apple's Slick Navigation` from their marketing website. At this point you have all the knowledge you'll need to be able to complete this stretch assignment.
+* Building out a navigation app that mimics `Apple's Slick Navigation` from their marketing website.
 
-## **NOTE** This repository is to be used as a Stretch Assignment
-
-* Now that you have played around with Routing and have been building out some nested routes etc. It's time to get you into a little more practice. Remember that repetition is key.
-* The idea here is to build out a replica of Apple's navigation.
-* Build out a menu similar to the one on https://www.apple.com with a top level navigation.
-
-## Project
+## Project Setup
 
 * Use _create-react-app_ to make an application, name it `apple-nav`.
-* You'll need to build out a few components here. Some variation of a `NavWrapper` component which will be your navigation header.
-* You'll need a reusable `Nav` component that you can turn into a navigation link for each parent category.
-* Lastly you're going to need some sort of `SubNav` component, that will be reusable and display your sub-navigation links for each category.
+* Build out a few components here. Some variation of a `NavWrapper` component which will be your navigation header.
+* Build out a reusable `Nav` component that you can turn into a navigation link for each parent category.
+* Build out some sort of `SubNav` component, that will be reusable and display your sub-navigation links for each category.
 
-### Stretch Problem
+## Front-End Dependencies
 
-* Once you are finished with the Navigation and SubNavigation components you'll be able to look into ways to extend this application by adding some smooth transitions. Look into [this article](https://hackernoon.com/animated-page-transitions-with-react-router-4-reacttransitiongroup-and-animated-1ca17bd97a1a) for an example of how this can be achieved.
+### React
 
-This example shows the sub-navigation for the `/mac` route.
+React is the current industry standard that offers a lot of out of the box benefits. It is fast, efficient, and scalable. Due to the large community, finding solutions to potential problems and reference material is much easier, even for a potential dev without a lot of experience who would like to contribute to Main Course. | [View Dependency](https://reactjs.org/docs/getting-started.html)
 
-![Sample Navigation](images/sample.png)
+### Connected React Router
+
+Allows for the ability to synchronize state with redux store through uni-directional data flow, time traveling, and dispatching of history methods. This makes for an incredibly useful tool when dealing with various stages of state and subsequent routing for a seamless and intuitive UI. | [View Dependency](https://www.npmjs.com/package/connected-react-router)
+
+## About
+
+- The Web App Uses React and React Router Dom to Create a slick Navigation system like [Apple's](www.apple.com) Commercial Website.
+- It consists of a main NavBar with all the General Products Series of the company.
+- In the Main NavBar each component have a sub navigation bar which provides the links to the particular items of that Product Series.
+
+
+
