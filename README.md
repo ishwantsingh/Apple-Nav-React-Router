@@ -21,7 +21,7 @@ Allows for the ability to synchronize state with redux store through uni-directi
 
 ## About
 
-- The Web App Uses React and React Router Dom to Create a slick Navigation system like [Apple's](www.apple.com) Commercial Website.
+- The Web App Uses React and React Router Dom to Create a slick Navigation system like [Apple's](https://www.apple.com/) Commercial Website.
 - It consists of a main NavBar with all the General Products Series of the company.
 - In the Main NavBar each component have a sub navigation bar which provides the links to the particular items of that Product Series.
 
